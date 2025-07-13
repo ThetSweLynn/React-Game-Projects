@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  max-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+main {
+  position: relative;
+  background-color: #f5f6fa;
+  color: #222;
+  border-radius: 12px;
+  max-width: 650px;
+  min-height: 80vh;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  overflow: visible;
+}
+
+p {
+  margin: 0 2.5rem;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, auto);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.die {
+  background-color: #FDF5E6;
+  color: black;
+  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  transition: background-color 0.3s ease;
+}
+
+.roll-button {
+  background-color: #9221bb;
+  color: white;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
