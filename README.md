@@ -12,6 +12,10 @@ A simple, fun digital version of the classic dice game. The goal is to roll the 
 
 A word guessing game where you need to save programming languages from being replaced by Assembly. Guess the hidden word in under 8 attempts to win!
 
+### 🔤 Wordle
+
+A web implementation of the popular word guessing game. Players have six attempts to guess a five-letter word, with color-coded feedback for each guess.
+
 ## 🚀 Getting Started
 
 1. Clone the repository to your local machine.
